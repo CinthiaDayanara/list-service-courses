@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const courseRoutes = require('./routes/courseRoutes'); // Asegúrate de que la ruta sea correcta
 const app = express();
-const port = 3006;
+const port = 5009;
 
 // Conectar a MongoDB
 mongoose.connect('mongodb://localhost:27017/courses_db', {
